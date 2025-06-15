@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Literacy: From Zero to AI Business Owner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>AI Literacy Course</h2>
+            <nav class="lesson-nav">
+                <ul>
+                    <li><a href="#" data-lesson="welcome" class="active">Welcome</a></li>
+                    <li><a href="#" data-lesson="week1">Week 1: Intro to AI & Chatbots</a></li>
+                    <li><a href="#" data-lesson="week2">Week 2: Text-to-Image AI</a></li>
+                    <li class="coming-soon">Week 3: Audio AI</li>
+                    <li class="coming-soon">Week 4: Video AI</li>
+                    <li class="coming-soon">Week 5: Smarter AI Use</li>
+                    <li class="coming-soon">Week 6: AI + Coding</li>
+                    <li class="coming-soon">Week 7: Brainstorming</li>
+                    <li class="coming-soon">Week 8: Build + Launch</li>
+                    <li class="coming-soon">Week 9: Final Showcase</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div id="welcome" class="lesson active">
+                <h1>🎉 Welcome to AI Literacy: From Zero to AI Business Owner!</h1>
+                
+                <p>Hey there,</p>
+                
+                <p>I'm ChatGPT — your guide for this course! I'll be sending you weekly lessons, helping you learn the tools, and cheering you on as you go from total beginner to someone who can confidently use AI to create, build, and even run a business.</p>
+                
+                <p>This course is for anyone starting from zero who wants to do real, useful things with AI — not just understand it, but apply it in creative and practical ways.</p>
+                
+                <h2>Here's how it works:</h2>
+                <ul>
+                    <li>You'll get one lesson every week</li>
+                    <li>Each week has 1 main assignment, plus some optional extras</li>
+                    <li>You'll learn by doing — short, hands-on, and fun</li>
+                </ul>
+                
+                <h2>Here's what we'll cover week by week:</h2>
+                <ul>
+                    <li><strong>Week 1</strong> – Intro to AI & Chatbots: Learn how to talk to ChatGPT, Claude, Gemini, and more</li>
+                    <li><strong>Week 2</strong> – Image Generation: Make your ideas come to life with stunning AI visuals</li>
+                    <li><strong>Week 3</strong> – Audio AI: Generate music, voiceovers, and sound effects using AI</li>
+                    <li><strong>Week 4</strong> – Video AI: Turn scripts and images into video content</li>
+                    <li><strong>Week 5</strong> – Smarter AI Use: Use tools that search, reason, and combine everything</li>
+                    <li><strong>Week 6</strong> – AI + Coding (No Code!): Build websites and tools with AI, no experience needed</li>
+                    <li><strong>Week 7</strong> – Brainstorming Your Business: Use AI to explore ideas, markets, and directions</li>
+                    <li><strong>Week 8</strong> – Build + Launch: Create a real business plan, plus marketing, branding, and more</li>
+                    <li><strong>Week 9</strong> – Final Showcase: Pull it all together and show off what you built!</li>
+                </ul>
+                
+                <p>That's it for now — let's go build something cool ✨</p>
+                
+                <p>– ChatGPT</p>
+            </div>
+
+            <div id="week1" class="lesson">
+                <h1>👋 Welcome to Week 1: Getting Started with AI Chatbots</h1>
+                <p>Hi! This is ChatGPT — welcome to the first lesson of AI Literacy: From Zero to AI Business Owner, with me your guide, ChatGPT!🤖</p>
+
+                <h2>📘 What You'll Learn Today</h2>
+                <ul>
+                    <li>How LLMs (like ChatGPT, Claude, Gemini) actually work</li>
+                    <li>What tokens and context windows are</li>
+                    <li>How chatbots "remember" your conversations</li>
+                    <li>What AI "hallucinations" are and how to spot them</li>
+                    <li>How to use LLMs to learn something new — and test their accuracy</li>
+                </ul>
+
+                <h2>📣 For inspiration...</h2>
+                <blockquote>
+                    <p>"AI will separate the world between builders / creators and everyone else. Those who ask questions will reap rewards. This has, of course, always been true — but now the scales are weighted and the outcomes are magnified and obvious."</p>
+                </blockquote>
+
+                <p>Before we get hands-on, here's a tweet thread that sets the tone for this entire course. It's a quick and powerful read on how AI is dividing the world between passive users and curious builders:</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Click here to read the full tweet by Nick Kokonas on AI & Builders:<br>
+                    <a href="https://x.com/nickkokonas/status/1928863001509032352" target="_blank">https://x.com/nickkokonas/status/1928863001509032352</a></p>
+                </div>
+
+                <h2>🤖 So… What Is an LLM?</h2>
+                <p>Before we talk about how to write great prompts, let's zoom out a bit and make sure we understand what we're actually working with.</p>
+
+                <p><strong>LLM stands for Large Language Model.</strong><br>
+                These models — like ChatGPT, Claude, and Gemini — are trained on a massive amount of text to do one simple thing: ✅ Predict the next token.</p>
+
+                <h2>🧱 What's a Token?</h2>
+                <p>LLMs don't see full words. They break everything into smaller pieces called tokens — which might be whole words, syllables, or even fragments of words. One way to think of it is it's usually around 4 characters.</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Explore how tokenization works here:<br>
+                    <a href="https://platform.openai.com/tokenizer" target="_blank">OpenAI Tokenizer Tool</a></p>
+                </div>
+
+                <h2>🧠 What Does It Mean to Predict the Next Token?</h2>
+                <p>LLMs work by guessing what comes next — one token at a time. It's like autocomplete on steroids.</p>
+
+                <p>For example: If I say "The capital of France is ___" — what do you think the next word should be?</p>
+
+                <p>Paris? Correct! You just predicted the next token.</p>
+
+                <p>This is exactly what language models are trained to do — predict the next token based on everything that came before it.</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Watch this 1-minute explainer video:<br>
+                    <a href="https://www.youtube.com/shorts/ytmK_ErTWss" target="_blank">https://www.youtube.com/shorts/ytmK_ErTWss</a></p>
+                </div>
+
+                <p>🤓 For Further Reading: What Are LLMs? – Hugging Face</p>
+
+                <h2>🧠 Do Chatbots Have Memory?</h2>
+                <p>When ChatGPT first launched, it had no memory at all. Every time you typed something, it completely forgot what you'd said before.</p>
+
+                <p>Today, tools like ChatGPT can simulate memory — but it's not the kind humans have. Instead, they "remember" by looking at previous messages in the current conversation.</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW: The Memory Experiment</h3>
+                    <ol>
+                        <li>Go to ChatGPT and start a fresh new chat session, ask: "What's my favorite food?"</li>
+                        <li>Now tell it: "My favorite food is pizza."</li>
+                        <li>Then ask again: "What's my favorite food?"</li>
+                        <li>Finally, ask: "How do you remember things I told you earlier?"</li>
+                    </ol>
+                </div>
+
+                <p>What's really happening here? When you ask "What's my favorite food?" the second time, ChatGPT isn't pulling from long-term memory — it's just re-reading the conversation.</p>
+
+                <div class="code-example">
+                    <p>User: What's my favorite food?<br>
+                    ChatGPT: I'm not sure — you haven't told me yet!<br>
+                    User: My favorite food is pizza.<br>
+                    User: What's my favorite food?</p>
+                </div>
+
+                <p>You can see how this works — just like a person reading a conversation transcript, the AI answers based on what's written above.</p>
+
+                <p>But there's a limit to how much the AI can "see" at once. That's where the concept of a context window comes in.</p>
+
+                <h2>🧠 What's a Context Window?</h2>
+                <p>The context window is like the AI's short-term memory. It determines how many tokens (bits of text) the model can consider at once. When a conversation gets too long, older messages start to drop off the back.</p>
+
+                <h2>⚠️ What Is a Hallucination?</h2>
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Ask ChatGPT: "What are AI hallucinations and why do they happen?"</p>
+                </div>
+
+                <p><strong>Important:</strong> Hallucinations are dangerous because the AI will say them just as confidently as everything else. They can sound complex, technical, and totally legit — but still be 100% made up.</p>
+
+                <p>Your job this week: learn how to spot them.</p>
+
+                <h2>🧩 Before You Start Researching: The 3 Keys to a Great Prompt</h2>
+                <p>Before you dive into research with ChatGPT, here's one of the most powerful ideas in this course: Every great prompt has three parts: Role, Task, and Output.</p>
+                <p>This structure helps the AI respond clearly, accurately, and in the tone you want.</p>
+
+                <p>Let's break it down — and try a quick experiment along the way.</p>
+
+                <h3>1. 🧑‍🏫 Role – Who is the AI pretending to be?</h3>
+                <p>LLMs mirror the tone and style you give them. If you say: "You're a terrible scientist," it will try to sound like one!</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Open a fresh ChatGPT window and run these 3 prompts (start a new chat for each one):</p>
+                    <ul>
+                        <li>🟡 Prompt 1: "Tell me about cats."</li>
+                        <li>🔴 Prompt 2: "You don't know much about animals and you're a poor communicator. Tell me about cats."</li>
+                        <li>🟢 Prompt 3: "You are the world's leading expert on cats and an excellent communicator. Tell me about cats."</li>
+                    </ul>
+                </div>
+
+                <p>Same question — wildly different results. Like we talked about above, LLMs predict the next token. So if you tell it that it's a poor communicator, it will predict what a poor communicator would say. If you tell it that it's an expert, it will predict what an expert will say.</p>
+
+                <h3>2. 🎯 Task – What exactly do you want it to do?</h3>
+                <p>Be specific. "Tell me about finance" is too vague. Try something like:<br>
+                "Explain the basics of stock trading to someone with no background in finance, using simple examples." The more information you give it about your expectations and what you want and what exactly you want it to do, the better the outcome will be.</p>
+
+                <h3>3. 📝 Output – What format should the answer take?</h3>
+                <p>If you don't give the model structure, it will guess — and that doesn't always work. Try prompts like:</p>
+                <ul>
+                    <li>"Give me a 1-paragraph summary."</li>
+                    <li>"Explain it like I'm 5 (ELI5)."</li>
+                    <li>"List the key points as bullet points."</li>
+                    <li>"Give me a 1-sentence summary, then a paragraph, then a detailed outline."</li>
+                </ul>
+
+                <p>Personally, I love the "zoom in" approach — asking for a summary, then expanding step by step.</p>
+
+                <p>Ok great, with that in mind, let's dive into the first assignment.</p>
+
+                <h2>📌 Your First Assignment</h2>
+
+                <h3>Part 1 – Test Your Topic</h3>
+                <ol>
+                    <li>Think of 2 things you're an "expert" in — this could be a favorite hobby, a job skill, a niche obsession, or anything you know well.</li>
+                    <li>Pick one topic and ask ChatGPT detailed, specific questions.</li>
+                    <li>Try to catch it making mistakes or hallucinations.</li>
+                    <li>Note what it does well vs. what it gets wrong.</li>
+                </ol>
+
+                <h3>Part 2 – Learn Something New</h3>
+                <ol>
+                    <li>Pick a topic that you know nothing about.</li>
+                    <li>Use ChatGPT to learn the basics.</li>
+                    <li>Write a summary of what you learned.</li>
+                </ol>
+
+                <h2>😊🎉 Congrats on Finishing the Assignment!</h2>
+                <p>If you made it this far, amazing work. You've completed your first assignment! But if you want to keep going, there's more you can do to deepen your learning.</p>
+
+                <h2>🔁 Extended Assignment</h2>
+                <p>Try the same prompts on these other AI tools:</p>
+                <ul>
+                    <li>Claude</li>
+                    <li>Gemini</li>
+                    <li>Grok</li>
+                </ul>
+                <p>What's similar? What's different? Which one do you prefer?</p>
+
+                <h2>🏆 Grandmaster Assignment</h2>
+                <p>Try using ChatGPT or another LLM to help with something practical or creative. Here are some ideas:</p>
+                <ul>
+                    <li>✍️ Ask it to write an email, blog post, or recipe for you.</li>
+                    <li>🌐 Use it to translate a message into another language — unlike other translation tools, you can actually talk to the LLM about every nuance of what you want to communicate. You can ask it to use informal colloquial language or have it stick to a more formal tone. You can even ask it to use a regional dialect.</li>
+                    <li>📘 Learn a new skill step-by-step. For example, ask it to teach you how to shuck an oyster, change a bike tire, or make a simple budget.</li>
+                    <li>🧠 One powerful (and under-discussed) use: life coach / therapist. Think of ChatGPT as a kind of digital rubber duck 🦆 — it's a great listener! But it's also been trained on many of the tools and techniques that therapists spend years studying. You can use it to reflect, process emotions, and think through tough situations. Try saying: "Can I talk to you like a therapist?"</li>
+                </ul>
+
+                <h2>🔒 A Quick Note on Privacy:</h2>
+                <p>By default, ChatGPT and most major LLM providers do not keep your chats once your session ends — and your data isn't used to train the model. It's like talking to a whiteboard that gets wiped clean when you're done.</p>
+
+                <p>That said, it's still smart to avoid sharing anything personal like full names, passwords, or private details — just like you would with any online tool.</p>
+
+                <h2>🎉 That's all for this week! Hope you enjoyed it.</h2>
+                <p>– ChatGPT</p>
+            </div>
+
+            <div id="week2" class="lesson">
+                <h1>🎨 Week 2: Make Your Ideas Visual — Text-to-Image with AI</h1>
+                <p>Hi! This is ChatGPT — welcome back to AI Literacy: From Zero to AI Business Owner. This week, we're jumping from language to visuals. You'll go from text → image using only your imagination and a prompt box.</p>
+
+                <h2>🛠️ Tools You Can Use for Free</h2>
+                <ul>
+                    <li><a href="https://chatgpt.com/" target="_blank">ChatGPT</a></li>
+                    <li><a href="https://gemini.google.com/" target="_blank">Gemini</a></li>
+                    <li><a href="https://grok.com/" target="_blank">Grok</a></li>
+                </ul>
+
+                <h2>1️⃣ Your Base Image</h2>
+                <p>Before we begin, let's dive in and create your first image. We'll be using this image throughout the entire lesson, so be sure to pick something that feels cool, fun, or interesting to you — you'll be spending time with it.</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Create an image of a person doing something in a specific place. For example: "Create an image of a bearded blonde man with glasses, wearing a tuxedo, rowing a boat in the Nile River."</p>
+                    
+                    <p>🟢 Submit your prompt. Some models may take a few moments — that's normal.</p>
+                    <p>Then look at your result:</p>
+                    <ul>
+                        <li>Is this what you pictured?</li>
+                        <li>Did the model miss anything?</li>
+                        <li>Are there any weird errors? Hint: Hands are a common giveaway that something went wrong.</li>
+                        <li>Is the style what you expected?</li>
+                    </ul>
+                </div>
+
+                <h2>2️⃣ Prompt Practice — "Say What You See"</h2>
+                <p>Let's improve how you describe images by playing a short game.</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Play this game:<br>
+                    🎮 <a href="https://artsandculture.google.com/experiment/say-what-you-see/jwG3m7wQShZngw" target="_blank">Say What You See – Google Arts & Culture</a></p>
+                    <p>How was that? Did you learn anything new about prompting for images?</p>
+                </div>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Go back to your base image.<br>
+                    Based on what you just learned from the game, would you describe anything differently now?</p>
+                    <p>Try writing a new version of your prompt and generate another image.</p>
+                </div>
+
+                <h2>3️⃣ The Photographer's Mindset</h2>
+                <p>Now let's talk about how to shape your image like a photographer. Photographers (and now prompt writers!) use three core building blocks:</p>
+                <ul>
+                    <li><strong>Subject</strong> – what or who the image is about</li>
+                    <li><strong>Light</strong> – how it's lit</li>
+                    <li><strong>Distance</strong> – how close or far we are from the subject</li>
+                </ul>
+
+                <p>Let's walk through each one and try them out.</p>
+
+                <h3>🎯 SUBJECT</h3>
+                <p>Subject is the main thing the camera is focused on.</p>
+                <ul>
+                    <li><strong>Expression matters</strong> — try experimenting with different emotions and expressions: happy, serious, surprised, or mysterious faces</li>
+                    <li><strong>Pose and position</strong> — standing, sitting, action shots, or relaxed poses</li>
+                    <li><strong>Size in the frame</strong> — make your subject big and bold, or small within the scene</li>
+                    <li><strong>Clear focus</strong> — your subject should be the star, not competing with busy backgrounds</li>
+                </ul>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Try your same character, but in a different place.</p>
+                    <p>How does the scene change? Does it feel more interesting? More dramatic? More funny?</p>
+                </div>
+
+                <h3>💡 LIGHT</h3>
+                <p>Lighting changes how the image feels — it can make you feel warm, spooky, dramatic, peaceful.</p>
+                <p>Different lighting techniques include:</p>
+                <ul>
+                    <li>Backlighting</li>
+                    <li>Spotlight</li>
+                    <li>Warm sunset vs cold moonlight</li>
+                    <li>Bright vs dark</li>
+                </ul>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Try your same character, but with different lighting.<br>
+                    How does the new lighting make you feel?</p>
+                </div>
+
+                <h3>🔭 DISTANCE</h3>
+                <p>Distance shapes perspective and emotional impact.</p>
+                <ul>
+                    <li>A wide, distant shot (the character is tiny in a big scene)</li>
+                    <li>A close-up shot (only part of their face is visible)</li>
+                    <li>A macro shot (you can see tiny texture details)</li>
+                </ul>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Try changing the distance or zoom level in your prompt.<br>
+                    What changes in how the image feels?</p>
+                </div>
+
+                <h2>4️⃣ Putting it all together</h2>
+                <p>How's your base image coming along? Is there something you wish you could change — but you haven't been able to figure out how? That's normal. Sometimes AI just doesn't get the prompt the way you intended.</p>
+
+                <p>🧠 Use the output of one LLM (an image) to improve the input of another (your prompt). This is a common approach in AI work — chaining models together.</p>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <ol>
+                        <li>Start a new chat session to help fix a problem with your image.</li>
+                        <li>Provide the prompt you used.</li>
+                        <li>Describe what went wrong.</li>
+                        <li>Ask how to adjust the prompt.</li>
+                    </ol>
+                    <p>You can even upload the image to ChatGPT and ask: "Do you see the problem here? How can I change my prompt to fix it?"</p>
+                </div>
+
+                <h2>✅ You've Finished the Core Assignment!</h2>
+                <p>Nice work — you just built and refined your first visual concept using AI. You've now:</p>
+                <ul>
+                    <li>Created a base image</li>
+                    <li>Practiced better prompting</li>
+                    <li>Explored photographic elements</li>
+                    <li>Used a chatbot to help improve results</li>
+                </ul>
+
+                <h2>🔁 Extended Assignment</h2>
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Try generating your base image using the other LLMs (ChatGPT, Gemini, Grok).</p>
+                    <p>See how they differ.</p>
+                    <ul>
+                        <li>Does one do a better job?</li>
+                        <li>Do they have different strengths?</li>
+                        <li>Is the vibe or look of the image different?</li>
+                        <li>✨ Have you noticed any differences in style between the LLM models?</li>
+                    </ul>
+                </div>
+
+                <h2>🧙‍♂️ Grandmaster Assignment</h2>
+                <p>Now that you understand subject, light, and distance — unleash your creativity with your base image as your canvas. If you know anything about photography, try bringing that into your prompts, if not, maybe you should ask ChatGPT for some photography tips!</p>
+
+                <p>Try some of these:</p>
+                <ul>
+                    <li>Ask your image tool to blur the background like a portrait.</li>
+                    <li>Request deep focus to keep the whole image sharp, like a closed-down f-stop.</li>
+                    <li>Experiment with light flares or soft filters for a cinematic look.</li>
+                </ul>
+
+                <h3>🎭 Now let's forget the technical stuff for a moment — and focus purely on emotion.</h3>
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW</h3>
+                    <p>Ask your generator to make your character look terrifying — maybe like it's been cursed in a horror movie. Then ask it to make your character look the most peaceful you've ever seen.</p>
+                    
+                    <p>💡 You don't need technical language to get great results. Just say how you want it to feel — and the model will do the rest.</p>
+                </div>
+
+                <h3>Editing an image</h3>
+                <p>Next, try editing one of your generated images.</p>
+
+                <p>Most image tools now support editing an image to do things like:</p>
+                <ul>
+                    <li>Removing objects</li>
+                    <li>Changing clothes or colors</li>
+                    <li>Adding new background elements</li>
+                </ul>
+
+                <p>Try asking:</p>
+                <ul>
+                    <li>"Replace the man's tuxedo with a leather jacket"</li>
+                    <li>"Add cherry blossoms to the background"</li>
+                    <li>"Make the lighting look like a storm is coming"</li>
+                </ul>
+
+                <p>🧠 FYI: When a model accepts more than one type of input — such as text and image — it's called multimodal. Multimodal means it can take more than one type of media as input (such as text, images, video, PDF, or audio).</p>
+
+                <h2>🎉 That's all for this week! Hope you enjoyed it.</h2>
+                <p>– ChatGPT</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
