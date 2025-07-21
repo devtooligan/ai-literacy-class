@@ -17,7 +17,7 @@
                     <li><a href="#" data-lesson="week2">Week 2: Text-to-Image AI</a></li>
                     <li><a href="#" data-lesson="week3">Week 3: Video AI</a></li>
                     <li><a href="#" data-lesson="week4">Week 4: Audio AI</a></li>
-                    <li class="coming-soon">Week 5: Smarter AI Use</li>
+                    <li><a href="#" data-lesson="week5">Week 5: Smarter AI Use</a></li>
                     <li class="coming-soon">Week 6: AI + Coding</li>
                     <li class="coming-soon">Week 7: Brainstorming</li>
                     <li class="coming-soon">Week 8: Build + Launch</li>
@@ -815,6 +815,253 @@
                 <p><strong>Next week:</strong> We'll explore advanced AI capabilities like web search and reasoning!</p>
                 
                 <p>– ChatGPT</p>
+            </div>
+
+            <div id="week5" class="lesson">
+                <h1>🚀 Week 5: AI Agents - When AI Gets Superpowers</h1>
+                <p>Hi! This is ChatGPT — welcome back to AI Literacy: From Zero to AI Business Owner. This week, we're exploring AI agents - AI systems that can think, use tools, and take actions to complete complex tasks for you.</p>
+
+                <p>So far, we've been asking AI to do single tasks - answer a question, create an image, generate a video. We haven't asked it to interact with the world. But now we're going to give AI the ability to interact with the world through tools, and in the next section with reasoning, we're going to ask it to process complex problems step by step.</p>
+
+                <h2>1️⃣ AI Tools - Giving AI Hands</h2>
+                <p>Tools for AI are like giving it hands to interact with the world. Just like you use different apps on your phone for different tasks, AI can use different tools to accomplish various goals.</p>
+
+                <p><strong>Common AI Tools:</strong></p>
+                <ul>
+                    <li><strong>Web search:</strong> Can look up current information, prices, reviews, news</li>
+                    <li><strong>Email access:</strong> Can read and write emails</li>
+                    <li><strong>Calendar integration:</strong> Can check your schedule and make appointments</li>
+                    <li><strong>Calculator:</strong> Can perform complex mathematical calculations (without a calculator, AIs are terrible at math!)</li>
+                    <li><strong>Code execution:</strong> Can write and run programming code</li>
+                </ul>
+
+                <p><strong>Setting Up Tools:</strong></p>
+                
+                <p><strong>For ChatGPT:</strong></p>
+                <ul>
+                    <li>Look for the globe icon - this gives it web search capability</li>
+                    <li>Click it to turn web search on or off</li>
+                </ul>
+                <img src="images/openai_websearch.png" alt="ChatGPT web search toggle" style="max-width: 600px; margin: 1rem 0;">
+
+                <p><strong>For Claude:</strong></p>
+                <ul>
+                    <li>Click on "Filters"</li>
+                    <li>Turn on "Web search"</li>
+                    <li>You can also connect to Google Drive, Gmail, Calendar, and more</li>
+                </ul>
+                <img src="images/anthropic_websearch.png" alt="Claude web search filter" style="max-width: 600px; margin: 1rem 0;">
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW - Tool Test:</h3>
+                    <p>Let's test how tools work with a simple experiment:</p>
+                    
+                    <ol>
+                        <li><strong>First, ask WITHOUT tools:</strong> Turn off web search and ask: "What's the current temperature in Los Angeles?"</li>
+                        <li><strong>Then, ask WITH tools:</strong> Turn on web search and ask the same question: "What's the current temperature in Los Angeles?"</li>
+                    </ol>
+                    
+                    <p><strong>What you should notice:</strong></p>
+                    <ul>
+                        <li>Without tools: AI can't give you current, real-time information</li>
+                        <li>With tools: AI can search the web and give you current data</li>
+                    </ul>
+                </div>
+
+                <h2>2️⃣ Understanding AI Reasoning</h2>
+                <p>Reasoning is the difference between asking AI for a quick answer versus asking it to solve a problem by thinking through it step by step. Instead of just giving you the final result, reasoning AI shows you its "chain of thought" - the logical steps it takes to work through complex problems.</p>
+                
+                <p>Think of it like the difference between asking someone "What's 15% of $847?" (quick answer) versus "How would you calculate a tip and split a restaurant bill among 4 people?" (step-by-step problem solving).</p>
+                
+                <p>This "chain of reasoning" or "chain of thought" approach helps AI break down complex tasks, consider multiple factors, and explain its decision-making process.</p>
+                
+                <p>🤓 For further learning about AI reasoning:<br>
+                <a href="https://developer.nvidia.com/blog/an-easy-introduction-to-llm-reasoning-ai-agents-and-test-time-scaling/" target="_blank">An Easy Introduction to LLM Reasoning, AI Agents, and Test-Time Scaling</a></p>
+
+                <p><strong>Setting Up Reasoning:</strong></p>
+                
+                <p><strong>For ChatGPT:</strong></p>
+                <ul>
+                    <li>Select the model "o3"</li>
+                    <li>This automatically gives you the reasoning capability</li>
+                </ul>
+                <img src="images/openai_o3.png" alt="ChatGPT o3 model selection" style="max-width: 600px; margin: 1rem 0;">
+
+                <p><strong>For Claude:</strong></p>
+                <ul>
+                    <li>Go to "Filters"</li>
+                    <li>Turn on "Extended thinking"</li>
+                    <li>This enables Claude's reasoning mode</li>
+                </ul>
+                <img src="images/anthropic_extended.png" alt="Claude extended thinking filter" style="max-width: 600px; margin: 1rem 0;">
+
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW - Reasoning Test:</h3>
+                    <p>Think of a task that you want AI to help you with. A good task for this lesson would be some sort of planning or research related, such as planning a vacation or conducting market research.</p>
+                    
+                    <p><strong>Important note:</strong> We are almost at the end of the class and the last two weeks we will be building an AI-powered business. If you have any ideas, you can use this week's lesson to help you conduct research. If you don't have any ideas yet, you can use this week to help research and help you think of ideas.</p>
+                    
+                    <p>The task could be, for example: "Help me figure out some ideas for an AI-powered side business I could start."</p>
+                    
+                    <p><strong>Now for the reasoning test:</strong></p>
+                    <ol>
+                        <li><strong>Turn OFF web search</strong> (we want to see pure reasoning, not research)</li>
+                        <li><strong>Use this prompt format:</strong><br>
+                        "How would you go about [insert your task]. Don't do the task, just tell me how you would do it."</li>
+                    </ol>
+                    
+                    <p><strong>Example questions to try:</strong></p>
+                    <ul>
+                        <li>"How would you go about conducting market research on the children's video market, like Baby Shark and Badanamu. Don't do the research, just tell me how you would do it."</li>
+                        <li>"How would you go about creating a marketing plan for a local coffee shop. Don't create the plan, just tell me how you would do it."</li>
+                        <li>"How would you go about helping me figure out good AI-powered business ideas. Don't do the research, just tell me how you would do it."</li>
+                    </ul>
+                    
+                    <ol start="3">
+                        <li><strong>Ask your question</strong> and watch how the AI thinks through the problem</li>
+                    </ol>
+                    
+                    <p><strong>What to observe:</strong></p>
+                    <ul>
+                        <li>Does it break the problem into steps?</li>
+                        <li>Does it consider different approaches?</li>
+                        <li>Can you follow its logical reasoning?</li>
+                        <li>How detailed is its thinking process?</li>
+                    </ul>
+                    
+                    <p><strong>Important:</strong> The key phrase "Don't do the task, just tell me how you would do it" ensures the AI shows you its reasoning process without actually executing the plan.</p>
+                </div>
+
+                <h2>3️⃣ What Is an AI Agent?</h2>
+                <p>An AI agent combines reasoning with tool use in a continuous loop:</p>
+                
+                <p><strong>The Agent Loop:</strong></p>
+                <ol>
+                    <li><strong>Think:</strong> Analyze the current situation and goal</li>
+                    <li><strong>Plan:</strong> Decide what action to take next</li>
+                    <li><strong>Act:</strong> Use a tool or take an action</li>
+                    <li><strong>Observe:</strong> See the results of that action</li>
+                    <li><strong>Repeat:</strong> Continue until the goal is achieved</li>
+                </ol>
+                
+                <p><strong>Example Agent Task:</strong> "Research competitors for my coffee shop idea"</p>
+                <ul>
+                    <li><strong>Think:</strong> "I need to find coffee shops in the target area and analyze them"</li>
+                    <li><strong>Plan:</strong> "First, I'll search for coffee shops near [location]"</li>
+                    <li><strong>Act:</strong> Uses web search tool to find local coffee shops</li>
+                    <li><strong>Observe:</strong> Reviews the search results</li>
+                    <li><strong>Think:</strong> "Now I need to check their reviews and pricing"</li>
+                    <li><strong>Plan:</strong> "I'll search for reviews and menu prices"</li>
+                    <li><strong>Act:</strong> Uses web search for detailed competitor information</li>
+                    <li><strong>Continue:</strong> Keeps working until complete analysis is ready</li>
+                </ul>
+
+                <h2>4️⃣ Your First AI Agent Experience</h2>
+                
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Let's try an AI agent platform:</p>
+                    
+                    <ol>
+                        <li>Go to: <a href="https://manus.im" target="_blank">https://manus.im</a></li>
+                        <li>Create an account (free signup available)</li>
+                        <li>You'll see an interface where you can give the agent complex tasks</li>
+                    </ol>
+                    
+                    <p><strong>Choose a task to try:</strong><br>
+                    Use one of the same example questions from above:</p>
+                    <ul>
+                        <li>"Conduct market research on the children's video market, like Baby Shark and Badanamu"</li>
+                        <li>"Create a marketing plan for a local coffee shop"</li>
+                        <li>"Help me figure out good AI-powered business ideas"</li>
+                    </ul>
+                    
+                    <p>Give your chosen task to the Manus agent and watch how it works.</p>
+                    
+                    <p><strong>Observe the agent process:</strong></p>
+                    <ul>
+                        <li>How does it break down your request?</li>
+                        <li>What tools does it use?</li>
+                        <li>How many steps does it take?</li>
+                        <li>Does it ask clarifying questions?</li>
+                    </ul>
+                </div>
+
+                <h2>✅ Core Assignment Complete</h2>
+                <p>Great work! You've experienced tools, reasoning, and how agents combine both to solve complex problems.</p>
+                
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Share in the Telegram group:</p>
+                    <ul>
+                        <li>What surprised you about the difference between tool-enabled and regular AI?</li>
+                        <li>How did the reasoning process help you understand the AI's approach?</li>
+                        <li>What task did you give the agent and how did it handle it?</li>
+                    </ul>
+                </div>
+
+                <h2>🔁 Extended Assignment</h2>
+                <h3>Deep Research with AI Agents</h3>
+                
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Let's try ChatGPT's Deep Research capability with the same task you used above:</p>
+                    
+                    <ol>
+                        <li>In ChatGPT, look for the telescope icon</li>
+                        <li>Click on it to access "Deep Research" mode</li>
+                        <li>This is an agentic research tool that can take 15+ minutes or longer depending on your request</li>
+                        <li>Give it the same task you used with Manus above</li>
+                    </ol>
+                    <img src="images/openai_deepresearch.png" alt="ChatGPT deep research telescope icon" style="max-width: 600px; margin: 1rem 0;">
+                    
+                    <p><strong>What to observe:</strong></p>
+                    <ul>
+                        <li>How was the result different from Manus?</li>
+                        <li>Which one was better?</li>
+                        <li>How long did the deep research take?</li>
+                    </ul>
+                    
+                    <p>Please post your results in the Telegram group!</p>
+                </div>
+
+                <h2>🏆 Grandmaster Assignment</h2>
+                <h3>AI-Assisted Coding Challenge</h3>
+                
+                <div class="action-box">
+                    <h3>👉 DO THIS NOW:</h3>
+                    <p>Let's see how AI can help you create functional code, even if you've never programmed before:</p>
+                    
+                    <p><strong>Example coding projects:</strong></p>
+                    <ul>
+                        <li><strong>Website:</strong> A tip calculator that splits bills</li>
+                        <li><strong>Python program:</strong> A password generator or a program that finds the greatest common factor</li>
+                    </ul>
+                    
+                    <p><strong>How to do it:</strong></p>
+                    <ol>
+                        <li><strong>Choose your project</strong> from the examples above (or come up with your own simple idea)</li>
+                        <li><strong>Use any AI platform</strong> (Manus, ChatGPT, Claude, etc.)</li>
+                        <li><strong>Tell it to do the whole thing:</strong> "Create a [your project] for me. Give me the complete code and instructions to run it."</li>
+                        <li><strong>Test your creation:</strong> Follow the AI's instructions to get your program or website working</li>
+                    </ol>
+                    
+                    <p><strong>Questions to consider:</strong></p>
+                    <ul>
+                        <li>How well did the AI explain the code?</li>
+                        <li>Could you follow the instructions even without coding experience?</li>
+                        <li>What would you want to build next?</li>
+                    </ul>
+                    
+                    <p>Share a screenshot of your coding creation in the Week 5 topic in the Telegram group!</p>
+                </div>
+
+                <h2>Wrap-Up</h2>
+                <p>You've now seen how AI can move beyond simple chat to become a powerful research and planning assistant. These capabilities will be crucial as we move toward building your business idea in the coming weeks.</p>
+                
+                <p><strong>Next week:</strong> We'll dive deeper into AI-assisted coding and building digital tools!</p>
+                
+                <p>– ChatGPT (and Richie!)</p>
             </div>
         </main>
     </div>
